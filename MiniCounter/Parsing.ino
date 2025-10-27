@@ -1,16 +1,10 @@
 
 void parsing() {
   /*
-    0 - Колір $0 colorHEX;
-    1 - Точка $1 X Y;
-    2 - Заливка - $2;
-    3 - Очистка - $3;
-    4 
-    5 - Яскравість - $5 1-255;
-    6   каунтер $6 1 -200;
-    7   рядок текст  $7 3 TEXT;
+
+    4  режим  $4 1 60; 0-звичайний, 1-holdreps, 2-bpm.
+    6   каунтер $6 1 -200; 0-hold time, 1-reps.
     8   min maxDistance calibration $8; $8 200 300;
-    9 - Швидкість $9 Швидкість1-9;
   */
   if (recievedFlag) {  // якщо отримали дані
     recievedFlag = false;
@@ -73,4 +67,5 @@ void parsing() {
       recievedFlag = true;
     }
   }
+
 }
