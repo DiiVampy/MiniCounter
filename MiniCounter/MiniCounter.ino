@@ -1,5 +1,5 @@
-#include <FastLED.h>
-#include <Button.h>
+//#include <FastLED.h>
+//#include <Button.h>
 #include <avr/pgmspace.h>
 #include <Wire.h>
 #include <VL53L0X.h>
@@ -7,11 +7,11 @@
 
 
 //Піни
-#define LED_PIN 6
+//#define LED_PIN 6
 
-#define SbuttonPin 2
-Button Mbutton(3);
-Button Dbutton(4);
+//#define SbuttonPin 2
+//Button Mbutton(3);
+//Button Dbutton(4);
 //Button Sbutton(2);
 
 
@@ -75,9 +75,9 @@ void setup() {
   Serial.begin(9600);
 
 //кнопки
-  Dbutton.begin();
-  Mbutton.begin();
-  pinMode(SbuttonPin, INPUT_PULLUP);
+  //Dbutton.begin();
+  //Mbutton.begin();
+  //pinMode(SbuttonPin, INPUT_PULLUP);
 
 //сенсор
 
