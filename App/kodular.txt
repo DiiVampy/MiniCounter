@@ -1,0 +1,1 @@
+You can import Distance_mini.aia as project on kodular.io to edit app
