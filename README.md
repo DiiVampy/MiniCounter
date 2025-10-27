@@ -1,5 +1,6 @@
 # MiniCounter
 Counter on laser distance sensor
+Counts every time somethisng gets close, holds close in seconds, holds minimum times of seconds, and closing at set bpm.
 
 Hardware
   1) arduino Nano
